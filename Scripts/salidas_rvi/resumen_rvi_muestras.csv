@@ -1,0 +1,4 @@
+Año,Mes,Muestra,Pixeles_RVI_validos,RVI_media_raster,RVI_std_raster,Salida_RVI_TIF,Salida_RVI_CSV
+2019,3,1,5475597,0.7928057909011841,0.3687668740749359,salidas_rvi/2019/03_march/muestra_1/RVI_BAP.tif,salidas_rvi/2019/03_march/muestra_1/rvi_celdas50m.csv
+2019,3,2,5475594,0.7833324670791626,0.36411482095718384,salidas_rvi/2019/03_march/muestra_2/RVI_BAP.tif,salidas_rvi/2019/03_march/muestra_2/rvi_celdas50m.csv
+2019,3,3,5475596,0.7939298152923584,0.36791756749153137,salidas_rvi/2019/03_march/muestra_3/RVI_BAP.tif,salidas_rvi/2019/03_march/muestra_3/rvi_celdas50m.csv

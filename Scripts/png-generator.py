@@ -59,6 +59,9 @@ def plot_custom_panel(ndvi_series, output_path, is_zoom=False):
     else:
         ax.set_title(f"Zoom (Marzo-Mayo) - {SUBZONA}", fontsize=14, pad=15)
         ax.grid(True, linestyle='--', alpha=0.6)
+        # En el zoom se fuerza etiqueta por dato para ver mes y año explícitamente.
+        ax.set_xticks(ndvi_series.index)
+        ax.set_xticklabels(ndvi_series.index.strftime("%Y-%m"), rotation=45, ha="right")
 
     # 3. Estética
     ax.set_ylabel("NDVI Value")
